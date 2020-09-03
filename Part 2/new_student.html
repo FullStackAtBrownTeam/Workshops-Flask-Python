@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="{{ url_for('addrec') }}" method="POST">
+            <h3>Student Information</h3>
+            <p>Name</p>
+            <br />
+            <input type="text" name="nm" /><br />
+
+            <p>Address</p>
+            <br />
+            <textarea name="add"></textarea><br />
+
+            <p>City</p>
+            <br />
+            <input type="text" name="city" /><br />
+
+            <p>PINCODE</p>
+            <br />
+            <input type="text" name="pin" /><br />
+
+            <input type="submit" value="submit" /><br />
+        </form>
+    </body>
+</html>
